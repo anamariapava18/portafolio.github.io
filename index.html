@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTAFOLIO AM</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/icons/css/all.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <!-- Link de Animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+
+
+    <nav class="navegador__header">
+        <div class="container nav">
+            <div class="logo">
+                <a href="#"><img src="imgs/Firma.svg" alt="Logo" ></a>
+            </div>
+            <ul>
+                <li><a href="#seccion2">SERVICIOS</a></li>
+                <li><a href="#seccion3">TRABAJOS</a></li>
+                <li><a href="#seccion4">CONTACTO</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="bienvenida" id="seccion1"> 
+
+        <article class="wrap1">
+        <div class="imagenes">   
+          <a href="#"><img src="imgs/foto definitiva.png" class="imgRedonda"  alt="foto Ana María" ></a>  
+         </div> 
+        
+  
+            <div class="presentacion">
+                 <article class="perfil">
+                    <h1>PRESENTACIÓN</h1>
+                    <p>Soy una estudiante de Diseño Gráfico del 8 semestre, tengo un excelente manejo en programas como Adobe Ilistrador, Photoshop, After Efects, Adobe Premiere, 
+                        me destaco mucho en la creación de Infografías, la edición de videos, me considero buena en la creación de Paginas Web, soy apasionada de la pintura 
+                        , la fotografía y la tipogrfía.  <br>
+                        Tengo experiencia en el Diseño Multimedia, Identidad corporativa y creación de piezas para publicidad (etiquetas, logos, etc), me gusta trabajar en equipo, soy
+                        muy perfeccionista con los trabajos que hago, soy muy amable, creativa y demasiado atenta para satisfacer al 100% a mi cliente, soy muy 
+                        proactiva, inquieta al momento de buscar una respuesta a algo y responsable con las tareas asignadas o trabajos propuestos.   </p>
+                        <ul>
+                          <li><a class="down animate__animated animate__bounceInDown animate__slower	3s fa-solid fa-circle-chevron-down" href=""> H D V</a></li>
+                      </ul>
+                    </article>
+                  </div>        
+      </section>
+     
+    <section class="servicios" id="seccion2">
+        <div class="wrap2">
+            <h1>SERVICIOS</h1>
+            <p>Páginas Web - Fotografías - Infografias </p>
+            <div class="container justify-content">
+                <article class="item1"> <img src="imgs/pweb.png" alt="Pagina Web Spotify"> </article>
+                <article class="item2"> <img src="imgs/final.fotografia.png" alt="Pieza publicitaria"> </article>
+                <article class="item3"> <img src="imgs/infografia.png" alt="Infografia Propiedad Intelectual"> </article>
+              </div>
+          </div>
+      </section>
+        </div>
+    </section>
+
+    <section class="trabajos" id="seccion3">
+        <div class="wrap">
+            <h1>TRABAJOS</h1>
+            <p>Aca puedes ver una recopilacion de mis mejores proyectos</p>
+             
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="imgs/revista.png" alt="Pieza Gráfica Hamburgesa"></div>
+          <div class="swiper-slide"><img src="imgs/IG2.png" alt="Pieza Gráfica Mc´donals"></div>
+          <div class="swiper-slide"><img src="imgs/CORP3.png" alt="Pieza gráfica Bota Y Barril"></div>
+          <div class="swiper-slide"><img src="imgs/corp2.png" alt="Pieza Gáfica Orbe"></div>
+          <div class="swiper-slide"><img src="imgs/PORTADA.png" alt="Pieza Gráfica Portada Revista"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="contacto" id="seccion4">
+        <div class="wrap_4">
+            <h1>CONTACTO</h1>
+            <p> Ana María Pava Arroyave  <br>
+                Universidad Católica Luis Amigó<br>
+                311 325 52 50  <br>
+                pavaarroyaveanamaria@gmail.com </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d63454.42256018491!2d-75.5947127806316!3d6.276691655222303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0x8e4428d1390dd14b%3A0xd4a077ea2c9ce810!2sAranjuez%2C%20Medell%C3%ADn%2C%20Antioquia!3m2!1d6.2766075!2d-75.559693!4m0!5e0!3m2!1ses!2sco!4v1653245385348!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        direction: "vertical",
+        slidesPerView: 1,
+        spaceBetween: 30,
+        mousewheel: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+
+</body>
+</html>

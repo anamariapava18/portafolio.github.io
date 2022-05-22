@@ -1,0 +1,232 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: beige;
+}
+.logo {
+    border: 10px ;
+    width: 60px;
+}
+
+.container{
+    display: flex;
+    width: 70%;
+    max-width: 1700px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav {
+    background-color: beige;
+    position: fixed;  /*Sirve para que el navegador se quede estatico cuando baje la pagina*/
+    width: 100%;
+    z-index: 2100;
+}
+
+nav .nav {
+    padding: .9em 0em;
+}
+
+
+nav .container ul li {
+    display: inline;
+    padding: .2em;
+}
+
+nav .container ul li a{
+    font-size: 1em;
+    color: #fc0075;
+    padding: .8em 1em;
+    border-radius: 10px;
+    font-weight: 450;
+}
+
+nav .container ul li a:hover{
+    color: rgb(255, 255, 253);
+    background-color:#f0a6e0;
+}
+
+/*Contenido*/
+section .wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: 70%;
+    height: 95vh; /*Alto de la pagina en cualquier dispositivo*/ 
+    max-width: 1700px;
+    margin: auto;
+    text-align: center;
+   
+}
+
+.bienvenida .down {
+    margin-top: 2em;
+}
+
+/*seccion 1*/
+.bienvenida {
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.bienvenida {
+    flex-grow:2;
+    border: px ;
+}
+
+.bienvenida .imagenes{
+    border: 3px ;
+    padding: 60px;
+}
+.imgRedonda {
+    width:300px;
+    height:450px;
+    border-radius:160px;
+    border:8px solid rgb(255, 255, 255);
+}
+
+.presentacion { 
+    padding: 64px;
+    flex-grow: 1;
+    font-weight: 200;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+.presentacion h1 {
+    font-size: 2em;
+    color: rgb(248, 248, 248);
+}
+
+.bienvenida .down {
+    margin-top: 3em;
+    align-content: center;
+}
+
+.bienvenida {
+    background-color:rgb(159, 252, 66);
+    clip-path: polygon(0 0,100% 0,100% calc(100% - 50px),calc(50% + 59.59px) calc(100% - 50px),50% 100%,calc(50% - 59.59px) calc(100% - 50px),0 calc(100% - 50px));
+    padding-top: 90px;
+    padding-bottom: 90px;
+    align-items: center;
+}
+
+div .perfil ul li {
+    display: inline;
+    padding: .2em;
+}
+
+div .perfil ul li a{
+    font-size: 1em;
+    color: #fdfffd;
+    padding: .8em 1em;
+    border-radius: 10px;
+}
+
+div .perfil ul li a:hover{
+    color: #ffffff;
+    background-color:#53c537;
+}
+
+.wrap1 {
+    display: flex;
+    width: 70%;
+    max-width: 1700px;
+    margin: auto;
+    text-align: center;
+}
+
+
+/*seccion 2*/
+.wrap2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding-bottom: 4em;
+}
+.servicios {
+    background-color: rgb(45, 189, 165);
+    clip-path: polygon(0 0,100% 0,100% 100%,0 calc(100% - 50px));
+    padding: 3em;
+}
+
+.justify-content{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2em;
+    gap: 30px;
+    border: 3px;
+}
+
+
+/*seccion 4*/
+.trabajos {
+    background-color: rgb(255, 165, 61);
+    clip-path: polygon(0 0,100% 0,100% calc(100% - 50px),50% 100%,0 calc(100% - 50px));
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+
+/*seccion 5*/
+.contacto {
+    background-color: rgb(167, 83, 245) ;
+    align-items: center;
+    padding: 3em;
+    text-align: center;
+    
+}
+
+/*Slider*/
+.swiper {
+    width: 60%;
+    height: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  /*fin de Slider*/ 
+  
